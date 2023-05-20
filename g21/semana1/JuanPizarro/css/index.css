@@ -1,0 +1,83 @@
+.body {
+    margin: 0;
+    /* background-image: conic-gradient(from 90deg at -10% 100%, #2b303b 0deg, #2b303b 90deg, #16181d 1turn); */
+    background-color: #16181d;
+    color: white;
+    font-family: monospace;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  
+  .flexbox {
+    display: flex;
+  }
+  
+  .g-layout {
+    display: grid;
+  }
+  
+  .g-layout--1-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .flexbox--header {
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .img {
+    display: block;
+  }
+  
+  .img--logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .hero {
+    min-height: 100vh;
+    background-image: url('../img/hero-background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .gap-2xs {
+    gap: 0.5rem;
+  }
